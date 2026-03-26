@@ -143,13 +143,14 @@ Agar versiya yangilanga bo'lsa 2.8 dan yangi versiyani qo'yish kerak.
     sudo chmod 600 /etc/haproxy/certs/wildcard.pem
 
 **Tekshirish**
-# Bloklarni sanash (4 yoki 5 bo'lishi kerak)
+ Bloklarni sanash (4 yoki 5 bo'lishi kerak)
     grep -c "BEGIN" /etc/haproxy/certs/wildcard.pem
 
-# Oxirgi qatorlar
+ Oxirgi qatorlar
     tail -3 /etc/haproxy/certs/wildcard.pem
 
-# HAProxy config tekshirish
+**HAProxy config tekshirish**    
+
     sudo haproxy -c -f /etc/haproxy/haproxy.cfg
 
 **4. Configuratsiyani to'g'irlash /etc/haproxy/haproxy.cfg**
