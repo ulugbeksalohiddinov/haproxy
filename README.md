@@ -113,11 +113,11 @@ Show HAproxy logs
 --------------------------------------------------------------------------------------
 **Example:**
 
-172.26.45.54 - HAProxy
-172.26.45.50 - Master
-172.26.45.51 - Worker1
-172.26.45.52 - Worker2
-172.26.45.53 - Worker3
+    172.26.45.54 - HAProxy
+    172.26.45.50 - Master
+    172.26.45.51 - Worker1
+    172.26.45.52 - Worker2
+    172.26.45.53 - Worker3
 
 **1.HAProxy o'rnatish (Ubuntu)**
 
@@ -143,6 +143,7 @@ Agar versiya yangilanga bo'lsa 2.8 dan yangi versiyani qo'yish kerak.
     sudo chmod 600 /etc/haproxy/certs/wildcard.pem
 
 **Tekshirish**
+
  Bloklarni sanash (4 yoki 5 bo'lishi kerak)
     grep -c "BEGIN" /etc/haproxy/certs/wildcard.pem
 
@@ -154,6 +155,7 @@ Agar versiya yangilanga bo'lsa 2.8 dan yangi versiyani qo'yish kerak.
     sudo haproxy -c -f /etc/haproxy/haproxy.cfg
 
 **4. Configuratsiyani to'g'irlash /etc/haproxy/haproxy.cfg**
+
 1 ta master va 3 ta workerliy cluster. SSL haproyxda tekshiriladi. Backendlar 80 portda eshitadi.
 
 
