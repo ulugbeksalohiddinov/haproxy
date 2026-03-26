@@ -145,9 +145,11 @@ Agar versiya yangilanga bo'lsa 2.8 dan yangi versiyani qo'yish kerak.
 **Tekshirish**
 
  Bloklarni sanash (4 yoki 5 bo'lishi kerak)
+        
         grep -c "BEGIN" /etc/haproxy/certs/wildcard.pem
 
  Oxirgi qatorlar
+        
         tail -3 /etc/haproxy/certs/wildcard.pem
 
 **HAProxy config tekshirish**    
