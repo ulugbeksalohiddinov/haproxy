@@ -240,11 +240,11 @@ Agar versiya yangilanga bo'lsa 2.8 dan yangi versiyani qo'yish kerak.
 
 **6. Domen misol nginx.uz Bu domenni haproxy IPsiga qaratib qo'yish kerak.**
 
-HAProxy loglarini ko'rish
+ HAProxy loglarini ko'rish
 
-1. Real-time log (eng qulay)
+ 1. Real-time log (eng qulay)
 
-    sudo tail -f /var/log/haproxy.log
+        sudo tail -f /var/log/haproxy.log
 
 
 ----
