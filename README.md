@@ -244,9 +244,7 @@ Agar versiya yangilanga bo'lsa 2.8 dan yangi versiyani qo'yish kerak.
 
 **6. Domen misol nginx.uz Bu domenni haproxy IPsiga qaratib qo'yish kerak.**
 
- HAProxy loglarini ko'rish
-
- 1. Real-time log (eng qulay)
+ HAProxy Real-time log (eng qulay)
 
         sudo tail -f /var/log/haproxy.log
 
@@ -265,5 +263,5 @@ kerak.
     sudo systemctl restart rke2-server #Tayyor bo'lishini kuting:
 
     sudo systemctl status rke2-server
-kubectl get nodes
+    kubectl get nodes
 
